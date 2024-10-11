@@ -1,0 +1,45 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 60px auto;
+    margin-bottom: 10px;
+    padding: 40px;
+    border: 1px solid #ccc;
+}
+h1 {
+    text-align: center;
+    padding: 30px;
+    max-width: fit-content;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #6e54fa;
+    border-radius: 2px;
+}
+
+input[type="submit"] {
+    background-color: #6e54fa;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+input[type="submit"]:hover {
+    background-color: #6e54fa;
+}
+
